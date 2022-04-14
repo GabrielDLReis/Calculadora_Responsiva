@@ -1,0 +1,170 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  background-color: #260D14;
+  font-family: 'Josefin Sans', sans-serif;
+  transition: 1s background-color linear;
+
+}
+
+
+.sr-only {
+color: #553594;
+
+display: none;
+}
+
+
+#display {
+  
+  width: 17rem;
+  height: 4rem;
+
+  background: #9B3151;
+  border-radius: 4px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  
+
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 3rem;
+  
+  
+  
+  
+}
+
+
+.display {
+  overflow-x: hidden;
+  z-index: 999;
+}
+
+#displayData {
+  
+  background-color: #000000;
+  border-radius: 3px;
+  width: 15rem;
+  height: 3rem;
+  
+
+  border: 6px solid #73263D;
+  border-bottom-left-radius: 8px solid ;
+  border-bottom-left-radius: 8px solid ;
+  margin-top: 1rem;
+  padding-bottom: 2rem;
+}
+
+
+
+#displayData h1, p {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+
+}
+
+#displayTest {
+  margin-top: .2rem;
+  margin-left: .5rem;
+}
+
+
+
+#center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  
+}
+
+#buttons {
+ 
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.3rem;
+  width: 17rem;
+  height: 20rem;
+
+  
+
+  border-radius: 3px;
+
+  background-color: #9B3151;
+  border: 10px solid #9B3151 ;
+  border-top-right-radius: 0px;
+  border-top-left-radius: 0px;
+  
+  
+  
+}
+
+#buttons button{ 
+  font-size: 1.4rem;
+  font-weight: 1000;
+
+  background-color: #4C1A29;
+
+  transition: 300ms background-color;
+
+  border: none;
+}
+
+#buttons button:hover {
+ background-color: #73263D;
+}
+
+
+@media (min-width: 550px){
+  #display {
+    width: 25rem;
+  }
+
+  #displayData {
+    width: 24rem;
+  }
+
+  #buttons {
+    width: 25rem;
+  }
+}
+
+@media (min-width: 850px) {
+  #display {
+    width: 45rem;
+    height: 6rem;
+    margin-top: 3.5rem;
+  }
+
+  #displayData {
+    width: 44rem;
+    margin-bottom: .2rem;
+    height: 5rem;
+  }
+
+  #displayData h1 {
+    
+    height: .1rem;
+  }
+
+   #displayTest {
+  margin-top: 4rem;
+  font-size: 3rem;
+} 
+
+  #buttons {
+    width: 45rem;
+    height: 24rem;
+    
+  }
+}
