@@ -6,7 +6,7 @@ Alguns elementosdo HTML foram alterados para ser compátiveis com as idéias rea
 
 muitas das ideias que foram concretizadas no JS e me fez ter uma percepção melhor de lógica de programação, foi com base no canal do Fernando.
 
-## Creditos:
+## Créditos:
 ### GabrielDLReis
 
 #### Github: https://github.com/GabrielDLReis
